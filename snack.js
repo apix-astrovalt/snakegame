@@ -7,7 +7,7 @@ const music=new Audio('music.mp3');
 const gameover=new Audio('gameover.mp3');
 const move=new Audio('move2.mp3');
 let lastpainttime=0;
-let speed=5;
+let speed=3;
 let snakeArr=[{x:13,y:15}];
 let food={x:6,y:5}
 let score=0;
@@ -182,6 +182,7 @@ document.getElementById('right').addEventListener('click', () => {
     inputDir.x = 1;
     inputDir.y = 0;
 });
+
 
 
 
