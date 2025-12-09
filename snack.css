@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background: url("4434748.jpg");
+    background-color:blue;
     min-height: 100vh;
     background-size: cover;
     background-position: center;
@@ -270,4 +270,5 @@ body::before {
     right:200px;
     font-size: 40px;
     ;
+
 }
